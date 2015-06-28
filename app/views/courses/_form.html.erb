@@ -15,19 +15,21 @@
   <% end %>
 
 	<%= f.label :name %>
-	<div><%= f.text_field :name %></div> </br>
+	<div><%= f.text_field :name , :placeholder => 'Single Variable Calculus' %></div> </br>
 
-	
+
 	<%= f.label :instructor %>
-	<div><%= f.text_field :instructor %></div> </br>
+	<div><%= f.text_field :instructor, :placeholder => 'John Smith' %></div> </br>
 
 	
 	<%= f.label :time %>
-	<div><%= f.text_field :time %></div> </br>
+	<div><%= f.text_field :time , :placeholder => 'Weekdays , 10:00 - 11:00' %></div> </br>
 
 	
 	<%= f.label :additional %>
-	<div><%= f.text_field :additional %></div> </br>
+	<div><%= f.text_area :additional %></div> </br>
 
 	<%= f.submit %>	
 <% end %>
+
+

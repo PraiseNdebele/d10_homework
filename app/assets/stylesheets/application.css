@@ -69,3 +69,14 @@ a {
 	text-decoration: none;
 	background: transparent;
 }
+textarea {
+    width: 1000px;
+    height: 600px;
+}
+
+.note{
+	border-bottom: 1px solid #ddd;
+}
+
+
+
